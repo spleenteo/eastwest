@@ -25,6 +25,7 @@
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
+activate :i18n, :mount_at_root => :en
 activate :livereload
 activate :syntax, :line_numbers => false
 set :markdown_engine, :redcarpet
