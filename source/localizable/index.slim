@@ -1,12 +1,57 @@
 ---
-title: East West Dialog homepage
+title: East West Dialogue homepage
 ---
 
 .hero--primary
   .hero__body
     .hero__body__inner
 
-      h1.hero__heading East West Dialog
-      p.hero__text = t("hero.subtitle")
+      h1.hero__heading = t("project_name")
+      p.hero__text = t("title")
       .hero__actions
         .button = t(:hello)
+
+.space--vertical-margin-5
+  .wrap
+    .grid
+      .grid__item.width--6-12
+        h2.beta = t("initiative_title")
+        p = t("initiative_body")
+
+      .grid__item.width--6-12
+        h2.beta = t("why_title")
+        p = t("why_body")
+
+.space--vertical-margin-2
+  .wrap
+    blockquote.blockquote = t("quotes.proportion")
+
+.space--vertical-margin-2
+  .wrap
+    h2.beta = t("who_title")
+    p = t("who_body")
+
+.space--vertical-margin-2
+  .wrap
+    h2.beta = t("when_title")
+    p = t("when_body")
+
+.space--vertical-margin-2
+  .wrap
+    h2.beta = t("where_title")
+    p = t("where_body")
+
+.space--vertical-margin-2
+  .wrap
+    h2.beta = t("purpose_title")
+    p = t("purpose_body")
+
+.space--vertical-margin-2
+  .wrap
+    blockquote = t("quotes.clarification")
+
+.space--vertical-margin-2
+  .wrap
+    h2.beta = t("how_title")
+    p.space--vertical-margin-1 = t("how_body")
+
