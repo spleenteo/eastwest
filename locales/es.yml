@@ -1,1 +1,4 @@
-/Users/spleenteo/Documents/Dropbox/EastWestDialogue/traduzioni/es.yml
+---
+es:
+  hello: "Hola in espanol"
+  title: '“Dialoghi Oriente-Occidente” sobre Silo'

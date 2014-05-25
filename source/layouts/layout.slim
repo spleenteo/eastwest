@@ -3,9 +3,13 @@ html
   head
     title = "#{current_page.data.title}" || "East west dialog"
     meta charset="utf-8"
+    meta name="robots" content="noindex"
+    meta name="viewport" content="width=device-width"
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    = partial 'seo_meta', locals: { object: current_page }
 
     = stylesheet_link_tag "application"
 
   body
     = yield
+    = javascript_include_tag 'application'

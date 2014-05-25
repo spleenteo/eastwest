@@ -3,28 +3,30 @@ title: East West Dialogue homepage
 ---
 
 .hero--primary
+  .hero__sticky
+    ul.nav--fill.main-menu
+      li.nav__item: a href="#" Cosa è
+      li.nav__item: a href="#" Partecipa
+      li.nav__item: a href="#" Informazioni
   .hero__body
     .hero__body__inner
-
       h1.hero__heading = t("project_name")
       p.hero__text = t("title")
       .hero__actions
-        .button = t(:hello)
+        a.button--primary.button--large href="#" Partecipa
 
-.space--vertical-margin-5
-  .wrap
-    .grid
-      .grid__item.width--6-12
-        h2.beta = t("initiative_title")
-        p = t("initiative_body")
+.l-block
+  .grid
+    .grid__item.non-portable--6-12
+      h2.beta = t("initiative_title")
+      p = t("initiative_body")
 
-      .grid__item.width--6-12
-        h2.beta = t("why_title")
-        p = t("why_body")
+    .grid__item.non-portable--6-12
+      h2.beta = t("why_title")
+      p = t("why_body")
 
-.space--vertical-margin-2
-  .wrap
-    blockquote.blockquote = t("quotes.proportion")
+.l-block.blockquote
+  blockquote = t("quotes.proportion")
 
 .space--vertical-margin-2
   .wrap
@@ -55,3 +57,9 @@ title: East West Dialogue homepage
     h2.beta = t("how_title")
     p.space--vertical-margin-1 = t("how_body")
 
+.space--vertical-margin-2
+  .wrap
+    h2.beta = t("contact_title")
+    p.space--vertical-margin-1 = t("contact_body")
+
+= partial "subscribe"

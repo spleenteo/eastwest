@@ -1,11 +1,12 @@
 .hero
   background-repeat: no-repeat
   background-position: center center
+  background-attachment: fixed
   background-color: $light-bg-color
-  background-image: url("../images/sunset.jpg")
+  background-image: url("../images/hero/temple.jpg")
   +background-size(cover)
   position: relative
-  min-height: 95vh
+  min-height: 75vh
 
 
 .hero__body
@@ -16,15 +17,20 @@
 .hero__body__inner
   display: table-cell
   vertical-align: middle
-  height: 400px
+  //height: 400px
 
 .hero__heading
   +heading-font-family
-  +font-size(50px)
+  +font-size(30px)
   line-height: 1.2
+  text-shadow: 2px 2px #000000
+  background-color: rgba($c-black, .3)
 
 .hero__text
   +margin-top(2)
+  text-shadow: 2px 2px #000000
+  background-color: rgba($c-black, .3)
+  +padding(1)
 
 .hero__actions
   +margin-top(2)

@@ -1,6 +1,9 @@
 @mixin vertical-space-rule($rule, $value)
   +rem-rule($rule, $value * $vertical-space-unit)
 
+@mixin horizontal-space-rule($rule, $value)
+  +rem-rule($rule, $value * $horizontal-space-unit)
+
 @mixin margin-bottom($value)
   +vertical-space-rule(margin-bottom, $value)
 
@@ -20,9 +23,19 @@
 @mixin padding-top($value)
   +vertical-space-rule(padding-top, $value)
 
+@mixin padding-left($value)
+  +horizontal-space-rule(padding-left, $value)
+
+@mixin padding-right($value)
+  +horizontal-space-rule(padding-right, $value)
+
 @mixin vertical-padding($value)
   +padding-top($value)
   +padding-bottom($value)
+
+@mixin horizontal-padding($value)
+  +padding-left($value)
+  +padding-right($value)
 
 @mixin padding($value)
   +vertical-space-rule(padding, $value)
