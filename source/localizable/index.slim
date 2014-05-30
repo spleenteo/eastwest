@@ -13,7 +13,7 @@ title: East West Dialogue homepage
       h1.hero__heading = t("project_name")
       p.hero__text = t("title")
       .hero__actions
-        a.button--primary.button--large href="#" Partecipa
+        a.button--primary.button--large href="#" = t("menu.participate")
 
 .l-wrap
   .grid
@@ -32,33 +32,47 @@ title: East West Dialogue homepage
     .widget
       blockquote = t("quotes.proportion")
 
-.l-wrap.widget
-  h2.widget__title = t("who_title")
-  p.widget__body = t("who_body")
+.l-wrap
+  .grid
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("who_title")
+        p.widget__body = t("who_body")
 
-.l-wrap.widget
-  h2.widget__title = t("when_title")
-  p.widget__body = t("when_body")
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("when_title")
+        p.widget__body = t("when_body")
 
-.l-wrap.widget
-  h2.widget__title = t("where_title")
-  p.widget__body = t("where_body")
+.poster--colors
 
-.l-wrap.widget
-  h2.widget__title = t("purpose_title")
-  p.widget__body = t("purpose_body")
+.l-wrap
+  .grid
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("where_title")
+        p.widget__body = t("where_body")
+
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("purpose_title")
+        p.widget__body = t("purpose_body")
 
 .blockquote
   .l-wrap
     .widget
       blockquote = t("quotes.clarification")
 
-.l-wrap.widget
-  h2.widget__title = t("how_title")
-  p.widget__body = t("how_body")
+.l-wrap
+  .grid
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("how_title")
+        p.widget__body = t("how_body")
 
-.l-wrap.widget
-  h2.widget__title = t("contact_title")
-  p.widget__body = t("contact_body")
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("organization_title")
+        p.widget__body = t("organization_body")
 
 = partial "subscribe"
