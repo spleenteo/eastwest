@@ -16,7 +16,7 @@ title: East West Dialogue homepage
         a.button--primary.button--large href="#" = t("menu.participate")
 
 .l-wrap
-  .grid
+  .grid.space--vertical-padding-5
     .grid__item.non-portable--6-12
       .widget
         h2.widget__title = t("initiative_title")
@@ -27,13 +27,6 @@ title: East West Dialogue homepage
         h2.widget__title = t("why_title")
         p.widget__body = t("why_body")
 
-.blockquote
-  .l-wrap
-    .widget
-      blockquote = t("quotes.proportion")
-
-.l-wrap
-  .grid
     .grid__item.non-portable--6-12
       .widget
         h2.widget__title = t("who_title")
@@ -44,10 +37,13 @@ title: East West Dialogue homepage
         h2.widget__title = t("when_title")
         p.widget__body = t("when_body")
 
-.poster--colors
+.poster--tajmahal
+  .l-wrap
+    .poster__claim
+      p = t("quotes.proportion")
 
 .l-wrap
-  .grid
+  .grid.space--vertical-padding-5
     .grid__item.non-portable--6-12
       .widget
         h2.widget__title = t("where_title")
@@ -58,10 +54,10 @@ title: East West Dialogue homepage
         h2.widget__title = t("purpose_title")
         p.widget__body = t("purpose_body")
 
-.blockquote
+.poster--colors
   .l-wrap
-    .widget
-      blockquote = t("quotes.clarification")
+    .poster__claim
+      p = t("quotes.clarification")
 
 .l-wrap
   .grid
