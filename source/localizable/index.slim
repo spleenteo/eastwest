@@ -4,16 +4,12 @@ title: East West Dialogue homepage
 
 .hero--primary
   .hero__sticky
-    ul.nav--center.main-menu
-      li.nav__item: a href="#" = t("menu.what")
-      li.nav__item: a href="#" = t("menu.participate")
-      li.nav__item: a href="#" = t("menu.info")
+    = partial "../partials/menu"
+
   .hero__body
     .hero__body__inner
       h1.hero__heading = t("project_name")
       p.hero__text = t("title")
-      .hero__actions
-        a.button--primary.button--large href="#" = t("menu.participate")
 
 .l-wrap
   .grid.space--vertical-padding-5

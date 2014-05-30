@@ -1,5 +1,8 @@
 ---
 it:
+  paths:
+    participate: "partecipa"
+
   project_name: "East West Dialogues"
   title: 'Umanesimo Universalista: Dialoghi Oriente-Occidente<br>Siloismo, Umanesimo Universalista e Nuova Spiritualità nel contesto sociale mondiale.'
   initiative_title: "L'iniziativa"
