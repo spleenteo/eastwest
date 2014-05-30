@@ -1,0 +1,16 @@
+.widget
+  +box-sizing(border-box)
+  +padding(1)
+  +vertical-margin(1)
+
+.widget__title
+  +heading-font-family
+  +font-size(25px)
+  +margin-bottom(1)
+
+.widget__body
+
+
++min-screen($tablet)
+  .widget__title
+    border: 1px solid red

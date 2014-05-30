@@ -34,3 +34,8 @@ it:
     departure: "Data di partenza"
     register: "Registrati"
 
+  menu:
+    what: "Cosa è"
+    participate: "Partecipa"
+    info: "Informazioni"
+    program: "Il programma"

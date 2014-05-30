@@ -4,10 +4,10 @@ title: East West Dialogue homepage
 
 .hero--primary
   .hero__sticky
-    ul.nav--fill.main-menu
-      li.nav__item: a href="#" Cosa è
-      li.nav__item: a href="#" Partecipa
-      li.nav__item: a href="#" Informazioni
+    ul.nav--center.main-menu
+      li.nav__item: a href="#" = t("menu.what")
+      li.nav__item: a href="#" = t("menu.participate")
+      li.nav__item: a href="#" = t("menu.info")
   .hero__body
     .hero__body__inner
       h1.hero__heading = t("project_name")
@@ -15,51 +15,50 @@ title: East West Dialogue homepage
       .hero__actions
         a.button--primary.button--large href="#" Partecipa
 
-.l-block
+.l-wrap
   .grid
-    .grid__item.non-portable--6-12.l-block__column
-      h2.l-block__column__title = t("initiative_title")
-      p = t("initiative_body")
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("initiative_title")
+        p.widget__body = t("initiative_body")
 
-    .grid__item.non-portable--6-12.l-block__column
-      h2.beta = t("why_title")
-      p = t("why_body")
+    .grid__item.non-portable--6-12
+      .widget
+        h2.widget__title = t("why_title")
+        p.widget__body = t("why_body")
 
-.l-block.blockquote
-  blockquote = t("quotes.proportion")
+.blockquote
+  .l-wrap
+    .widget
+      blockquote = t("quotes.proportion")
 
-.space--vertical-margin-2
-  .wrap
-    h2.beta = t("who_title")
-    p = t("who_body")
+.l-wrap.widget
+  h2.widget__title = t("who_title")
+  p.widget__body = t("who_body")
 
-.space--vertical-margin-2
-  .wrap
-    h2.beta = t("when_title")
-    p = t("when_body")
+.l-wrap.widget
+  h2.widget__title = t("when_title")
+  p.widget__body = t("when_body")
 
-.space--vertical-margin-2
-  .wrap
-    h2.beta = t("where_title")
-    p = t("where_body")
+.l-wrap.widget
+  h2.widget__title = t("where_title")
+  p.widget__body = t("where_body")
 
-.space--vertical-margin-2
-  .wrap
-    h2.beta = t("purpose_title")
-    p = t("purpose_body")
+.l-wrap.widget
+  h2.widget__title = t("purpose_title")
+  p.widget__body = t("purpose_body")
 
-.space--vertical-margin-2
-  .wrap
-    blockquote = t("quotes.clarification")
+.blockquote
+  .l-wrap
+    .widget
+      blockquote = t("quotes.clarification")
 
-.space--vertical-margin-2
-  .wrap
-    h2.beta = t("how_title")
-    p.space--vertical-margin-1 = t("how_body")
+.l-wrap.widget
+  h2.widget__title = t("how_title")
+  p.widget__body = t("how_body")
 
-.space--vertical-margin-2
-  .wrap
-    h2.beta = t("contact_title")
-    p.space--vertical-margin-1 = t("contact_body")
+.l-wrap.widget
+  h2.widget__title = t("contact_title")
+  p.widget__body = t("contact_body")
 
 = partial "subscribe"
