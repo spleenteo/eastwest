@@ -31,13 +31,14 @@ link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesh
         span.asterisk *
       input type="text" value="" name="COUNTRY" class="required" id="mce-COUNTRY"
 
-    mc-field-group.size1of2
+  .grid
+    .grid__item.non-portable--6-12
       label for="mce-AGE"
         = t("subscribe.age")
         span.asterisk *
       input type="number" name="AGE" class="required" value="" id="mce-AGE"
 
-    .mc-field-group.size1of2
+    .grid__item.non-portable--6-12
       label for="mce-ARRIVAL-month"
         = t("subscribe.arrival")
       div class="datefield"
@@ -53,21 +54,21 @@ link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesh
         div class="fake-date"
           input type="hidden" class=" date" id="ARRIVAL-fake-date" value=""
 
-    .mc-field-group.size1of2
-      label for="mce-DEPARTURE-month"
-        = t("subscribe.departure")
-      div class="datefield"
-        span class="subfield monthfield"
-          input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="DEPARTURE[month]" id="mce-DEPARTURE-month"
-        '/
-        span class="subfield dayfield"
-          input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="DEPARTURE[day]" id="mce-DEPARTURE-day"
-        '/
-        span class="subfield yearfield"
-          input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="DEPARTURE[year]" id="mce-DEPARTURE-year"
-        span class="small-meta nowrap" ( mm / dd / yyyy )
-        div class="fake-date"
-          input type="hidden" class=" date" id="DEPARTURE-fake-date" value=""
+      .mc-field-group.size1of2
+        label for="mce-DEPARTURE-month"
+          = t("subscribe.departure")
+        div class="datefield"
+          span class="subfield monthfield"
+            input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="DEPARTURE[month]" id="mce-DEPARTURE-month"
+          '/
+          span class="subfield dayfield"
+            input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="DEPARTURE[day]" id="mce-DEPARTURE-day"
+          '/
+          span class="subfield yearfield"
+            input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="DEPARTURE[year]" id="mce-DEPARTURE-year"
+          span class="small-meta nowrap" ( mm / dd / yyyy )
+          div class="fake-date"
+            input type="hidden" class=" date" id="DEPARTURE-fake-date" value=""
 
     div id="mce-responses" class="clear"
       div class="response" id="mce-error-response" style="display:none"

@@ -8,7 +8,6 @@
   position: relative
   min-height: 100vh
 
-
 .hero__body
   display: table
   width: 100%
@@ -25,12 +24,13 @@
   line-height: 1.2
   text-shadow: 2px 2px #000000
   background-color: rgba(#000000, .5)
+  +vertical-padding(2)
 
 .hero__text
   +margin-top(2)
   text-shadow: 2px 2px #000000
   background-color: rgba(#000000, .5)
-  +padding(1)
+  +padding(2)
 
 .hero__actions
   +margin-top(2)
@@ -38,15 +38,24 @@
 .hero--primary
   @extend .hero
   background-color: $primary-color
+
+.hero--subscribe
+  @extend .hero
+  min-height: 50vh
+  background-image: url("../images/hero/temple.jpg")
+
+.hero--subscribe, .hero--primary
   color: white
 
   .hero__text a
     color: white
 
-+at-breakpoint(non-portable)
++min-screen($tablet)
   .hero__heading,
+    +font-size(50px)
   .hero__text
     width: 60%
     margin-left: auto
     margin-right: auto
+    +font-size(20px)
 
