@@ -1,0 +1,19 @@
+- if object.data.seo_title && object.data.seo_title.size > 1
+  - meta_title =  object.data.seo_title
+- else
+  - meta_title =  object.data.title
+
+title= "#{meta_title} — #{data.site.name}"
+meta property="og:site_name" content="#{data.site.name}"
+meta property="og:title" content="#{meta_title}"
+meta name="twitter:title" content="#{meta_title}"
+
+- if object.data.seo_description
+  meta name="description" content="#{object.data.seo_description}"
+  meta property="og:description" content="#{object.data.seo_description}"
+  meta name="twitter:description" content="#{object.data.seo_description}"
+
+/
+  - if object.data.seo_image
+    meta property="og:image" content="#{object.data.site.url}#{object.data.seo_image}"
+    meta name="twitter:image" content="#{object.data.site.url}#{object.data.seo_image}"

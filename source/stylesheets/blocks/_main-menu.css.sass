@@ -1,0 +1,14 @@
+.main-menu
+  background-color: rgba($c-black, 0.3)
+  +vertical-padding(2)
+  text-align: center
+
+  a
+    color: $c-primary
+    text-decoration: none
+    +heading-font-family
+    +horizontal-padding(1)
+    &:hover
+      background-color: rgba($c-primary, .7)
+      +transition(all 0.8s ease-in-out)
+      color: $c-white

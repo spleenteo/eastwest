@@ -1,0 +1,18 @@
+.l-block
+  @extend .l-wrap
+  +vertical-padding(5)
+
+.l-block__column
+  +margin-bottom(2)
+  +box-sizing(border-box)
+
+.l-block__column__title
+  +heading-font-family
+  +font-size(25px)
+  +margin-bottom(1)
+
++min-screen(tablet)
+  .l-block__column__title
+    border: 1px solid red
+
+
