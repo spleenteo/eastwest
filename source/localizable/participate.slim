@@ -8,6 +8,12 @@ title: Register to the event - East West Dialogue
 
   .hero__body
     .hero__body__inner
-      h1.hero__heading = t("project_name")
-      p.hero__text = t("title")
+      h1.hero__heading = t("subscribe.page_title")
+      p.hero__text = t("subscribe.page_incipit")
 
+.l-wrap
+  .widget
+    h2.widget__title = t("subscribe.intro_title")
+    article.widget__body = t("subscribe.intro_body")
+  .vertical-margin-3
+    = partial "subscribe"
