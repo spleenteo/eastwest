@@ -6,7 +6,7 @@ var config = {
   icons: {
     src:       "source/fonts/svg/*.svg",
     fontDest:  "source/fonts/",
-    sassDest:  "source/stylesheets/lib/variables/_icon-glyphs.css.sass"
+    sassDest:  "source/stylesheets/variables/_icon-glyphs.css.sass"
   },
   sprites: {
     src:       "source/images/sprites/*.png",

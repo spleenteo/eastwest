@@ -1,0 +1,15 @@
+// Generated automatically via Grunt, do not edit manually!
+
+$sprites: (
+<% items.forEach(function(item, index) {
+%>  <%= item.name %> (
+    x             <%= item.px.x %>,
+    y             <%= item.px.y %>,
+    offset-x      <%= item.px.offset_x %>,
+    offset-y      <%= item.px.offset_y %>,
+    width         <%= item.px.width %>,
+    height        <%= item.px.height %>,
+    total-width   <%= item.px.total_width %>,
+    total-height  <%= item.px.total_height %>
+  )<%= index < items.length - 1 ? "," : "" %>
+<% }); %>)
