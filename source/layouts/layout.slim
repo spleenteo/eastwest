@@ -7,7 +7,6 @@ html
     meta name="viewport" content="width=device-width"
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
     = partial 'seo_meta', locals: { object: current_page }
-
     = stylesheet_link_tag "application"
     = javascript_include_tag 'application'
 
@@ -17,12 +16,12 @@ html
     .footer
       .l-wrap
         .grid
-          .grid__item.non-portable--4-12
+          .grid__item.non-portable--6-12
             .footer__box
-              h2.footer__box__title Contatti
-              p.footer__box__body Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              h2.footer__box__title = t("footer.contact_title")
+              p.footer__box__body = t("footer.contact_body")
 
-          .grid__item.non-portable--4-12
-            h2 ciccio
-          .grid__item.non-portable--4-12
-            h2 ciccio
+          .grid__item.non-portable--6-12
+            .footer__box
+              h2.footer__box__title = t("footer.social_title")
+              p.footer__box__body = t("footer.social_body")
