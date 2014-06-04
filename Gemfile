@@ -3,6 +3,7 @@ source 'https://rails-assets.org'
 
 gem 'bourbon'
 gem "builder", "~> 3.0"
+gem "jquery-middleman"
 gem 'middleman', github: 'middleman/middleman', branch: 'v3-stable' # http://goo.gl/HSJIiW
 gem "middleman-deploy"
 gem "middleman-livereload", "~> 3.3.2"

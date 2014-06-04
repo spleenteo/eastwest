@@ -1,0 +1,16 @@
+javascript:
+  var language = window.navigator.userLanguage || window.navigator.language;
+
+  switch (language.substring(0,2)){
+   case "it":
+    l = "it"
+    break;
+   case "es":
+    l = "es"
+    break;
+
+   default:
+    l = "en"
+    break;
+  }
+  window.location.href = l + "/"

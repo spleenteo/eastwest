@@ -9,10 +9,10 @@ html
     = partial 'seo_meta', locals: { object: current_page }
 
     = stylesheet_link_tag "application"
+    = javascript_include_tag 'application'
 
   body
     = yield
-    = javascript_include_tag 'application'
 
     .footer
       .l-wrap

@@ -1,0 +1,53 @@
+---
+title: Informazioni - East West Dialogue
+---
+
+.hero--subscribe
+  .hero__sticky
+    = partial "../partials/menu"
+
+  .hero__body
+    .hero__body__inner
+      h1.hero__heading = t("info.page_title")
+      p.hero__text = t("info.page_incipit")
+
+.l-wrap
+  .grid.space--vertical-padding-5
+    .grid__item.non-portable--6-12
+      .widget
+        i.widget__icon.icon--idea
+        h2.widget__title = t("info.what_title")
+        p.widget__body = t("info.what_body")
+
+    .grid__item.non-portable--6-12
+      .widget
+        i.widget__icon.icon--location
+        h2.widget__title = t("info.location_title")
+        p.widget__body = t("info.location_body")
+
+.l-wrap
+  .map
+    iframe#my_map src="https://mapsengine.google.com/map/embed?mid=zvCwudB7Oij4.kyl9x1Z9AtWg" width="100%" height="450"
+
+- (0..100).each do
+  br
+
+
+javascript:
+  $(document).ready(function($){
+    $.fn.scrollStopped = function(callback) {
+      $(this).scroll(function(){
+        $('#my_map').css('pointer-events','none');
+
+        var self = this, $this = $(self);
+        if ($this.data('scrollTimeout')) {
+          clearTimeout($this.data('scrollTimeout'));
+        }
+        $this.data('scrollTimeout', setTimeout(callback,250,self));
+      });
+    };
+
+    $(window).scrollStopped(function(){
+      $('#my_map').css('pointer-events','auto');
+    });
+  });
