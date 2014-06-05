@@ -22,8 +22,13 @@ it:
   how_body: "Nei 3 giorni di massima concentrazione (20, 21 e 22 Febbraio 2015) si svolgeranno conferenze, interscambi, seminari e lavori di gruppo su tematiche riguardanti la situazione attuale del Siloismo e sul momento storico mondiale nel quale è inserito, il suo trascorso e le sue possibilità al futuro. Nei giorni precedenti (dal 16 al 19 Febbraio 2015) si svolgeranno iniziative di approfondimento e interscambio che, oltre a essere momenti previ validi per sè stessi, saranno utili a una prima impostazione delle tematiche trattate nei 3 giorni culmine."
   organization_title: "Organizzazione"
   organization_body: "Lo sviluppo di tutto questo dipenderà dalla proposta e iniziativa degli stessi partecipanti all’evento.<br>L’organizzazione dell’evento sarà coordinata da un’equipe promotrice che è in corso di formazione. Si cercano persone interessate a farne parte per svolgere le funzioni necessarie alla realizzazione dell’evento.<br>Ad ora l’equipe promotrice sta lavorando attraverso chat mensili programmate fino al mese di Luglio 2014, periodo entro il quale è possibile proporsi nell’equipe promotrice. Le proposte su attività da svolgere potranno svilupparsi fino a Novembre 2014.<br>"
-  contact_title: "Contatti"
-  contact_body: "Per ricevere maggiori informazioni, per proporsi nella realizzazione dell’evento o proporre attività e iniziative scrivere a:<br>eastwestdilogues@gmail.com<br>loucamerini@gmail.com<br>m_8@rediffmail.com<br>arihantvirem@yahoo.com<br>byjuchalad@gmail.com"
+
+  footer:
+    contact_title: "Contatti"
+    contact_body: "Per ricevere maggiori informazioni, per proporsi nella realizzazione dell’evento o proporre attività e iniziative scrivere a:<br><a href='mailto:eastwestdialogues@gmail.com'>eastwestdialogues@gmail.com</a>"
+    social_title: "Social"
+    social_body: "Su facebook pubblichiamo di tutto, seguici!"
+
   quotes:
     proportion: "...Pensa alla sproporzione che abbiamo tra il totale della popolazione e il totale dei parchi…Pensa alla popolazione dell'Asia, tutta l'Asia e due parchi, è una sproporzione...” (Silo,  17/8/2010)"
     clarification: "”...L'umanista deve fare chiarimento interno per poter fare chiarimento esterno, e non arrendersi proprio in questo momento in cui nessuno chiarisce nessuno...<br>Questi sono processi, e gli umanisti sono inseriti in un momento sociale e storico. Il sì e il no stanno anche negli umanisti. È una cosa che deve essere considerata, valorizzata. Come non dare valore al chiarimento?” — (Silo, Da chiacchera  28-01-2008, Raccomandazioni al Movimento nel momento attuale)"
@@ -51,8 +56,6 @@ it:
     what_body: "Nei 3 giorni di massima concentrazione (20, 21 e 22 Febbraio 2015) si svolgeranno conferenze, interscambi, seminari e lavori di gruppo su tematiche riguardanti la situazione attuale del Siloismo e sul momento storico mondiale nel quale è inserito, il suo trascorso e le sue possibilità al futuro. Nei giorni precedenti (dal 16 al 19 Febbraio 2015) si svolgeranno iniziative di approfondimento e interscambio che, oltre a essere momenti previ validi per sè stessi, saranno utili a una prima impostazione delle tematiche trattate nei 3 giorni culmine."
     location_title: "Come arrivare"
     location_body: "Prendi l'aereo, poi il treno, il gommone e l'elefante"
-
-
 
   menu:
     what: "Cosa è"
