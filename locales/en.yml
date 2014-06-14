@@ -1,23 +1,86 @@
 ---
 en:
-  project_name: "East West Dialogue"
-  title: '“Dialoghi Oriente-Occidente” sull’Umanesimo Universalista'
-  initiative_title: "L'iniziativa"
-  initiative_body: "A partire da alcuni interscambi realizzati in India tra persone di differenti provenienze è sorta l’immagine di un raduno di persone che aderiscono all’Umanesimo Universalista espresso attraverso la Dottrina di Silo."
-  why_title: "Le motivazioni"
-  why_body: "Questa iniziativa è spinta dalla necessità di continuare a sviluppare un confronto ampio in merito alle tematiche che ci accomunano e alla nostra direzione al futuro. E inoltre l'utilità di incentivare lo sviluppo di attività e iniziative nel continente asiatico."
-  who_title: "I promotori"
-  who_body: "Umanisti dell’Asia e dell’Europa."
-  when_title: "Quando"
-  when_body: "L’apice del raduno è previsto nei tre giorni 20, 21 e 22 Febbraio 2015. Nei giorni precedenti potranno esserci anche varie attività, conferenze, incontri, anche rivolte verso il sociale."
-  where_title: "I luoghi"
-  where_body: "L’incontro si svolgerà a Varkala, località marina affacciata sul mar Arabico, situata nel sud ovest dell’India, nello stato del Kerala, a circa 50 Km dalla capitale Trivandrum (Aeroporto Internazionale)."
-  purpose_title: "L'aspirazione"
-  purpose_body: "Ci attendiamo da questo incontro che abbia le finalità di dare maggiore chiarezza al nostro operato immediato e futuro e che sia l'inizio di un dialogo aperto ad ulteriori sviluppi. Promuovere un interscambio sullo sviluppo della dottrina Siloista nel mondo, oltre a favorire e stimolare lo scambio di esperienze e il contatto tra realtà che traducono la dottrina siloista in contesti sociali e culturali tanto diversi, riscattando gli aspetti che accomunano gli umanisti di tutte le latitudini. "
-  how_title: "Lo svolgimento"
-  how_body: "<p><a href='http://www.google.com'>Si prevedono</a> come momento di massima concentrazione 3 giorni (20, 21 e 22 Febbraio 2015) nei quali si svolgeranno conferenze, interscambi, seminari e lavori di gruppo su tematiche riguardanti il momento storico mondiale nel quale siamo inseriti come Siloisti. Inoltre si intende attraverso l’elaborazione di insieme, giungere ad un approfondimento circa la nuova tappa che il Siloismo sta attraversando e le possibilità a futuro.<br>Prima e dopo questi tre giorni si prevedono ulteriori iniziative di approfondimento e interscambio e attività di diffusione attraverso conferenze e seminari pubblici. Lo sviluppo di tutto questo dipenderà dalla proposta e iniziativa degli stessi partecipanti all’evento. <br>L’organizzazione dell’evento sarà coordinata da un’equipe promotrice che è in corso di formazione. Si cercano persone interessate a farne parte per riempire le funzioni necessarie alla realizzazione dell’evento.</p><p>Ad ora l’equipe promotrice sta lavorando attraverso chat mensili programmate fino al mese di Luglio 2014, periodo entro il quale è possibile proporsi nell’equipe promotrice. Le proposte su attività da svolgere potranno svilupparsi fino a Novembre 2014.</p>"
-  contact_title: "Contatti"
+  paths:
+    participate: "partecipate"
+    info: "info"
+
+  project_name: "East West Dialogues"
+  title: "Let's talk about Siloism, Universalist Humanism and New Spirituality within the world social context."
+  initiative_title: "The initiative"
+  initiative_body: "From some debates made ​​in India between Siloists of various part of the world, arose the idea to organize a meeting of people who adhere to the Universalist Humanism expressed through the Doctrine of Silo."
+
+
+  why_title: "The reasons"
+  why_body: "The initiative is pushed up by the need to develop a continuos debate about the commons themes, the direction for the future and the importance to develop activities in Asia."
+
+  who_title: "The promoters"
+  who_body: "The initiative is promoted by siloists, members of The Message of Silo, and Humanist Movement of Asia and Europe."
+
+  when_title: "When"
+  when_body: "The rally will take place on February 2015, form 16th to 22nd. The summit shall be during the week on 20th, 21st and 22nd."
+
+  where_title: "Where"
+  where_body: "The meeting will take place in Varkala, seaside resort overlooking the Arabian Sea, set in the south west of India in the state of Kerala, about 50km from Trivandrum, the capital."
+
+
+  purpose_title: "The ambition"
+  purpose_body: "From this meeting, we expect to better understanding the work to do, present and future; the beginning of an open dialogue to further developments.<br>We want to promote and facilitate the exchange of experience and further contact between those who translate the doctrine oof Silo onto social and cultural contexts, much different from each other, enhancing the common aspects. In addition, we hope that arise images of activities to be undertaken, both in Europe and in Asia."
+
+  how_title: "The implementation"
+  how_body: "During the 3 days of maximum concentration (20, 21 and February 22, 2015), there will be conferences, exchanges, seminars. We'll talk about things concerning the current situation of the siloism and the world historical moment in which it is inserted, the past and its possibilities for the future.<br>In the earlier days (16 to 19 February 2015) there will be initiatives of study and exchange that, in addition to being valid moments for themselves, will be useful to set the following days."
+
+  organization_title: "Organizzazione"
+  organization_body: "Lo sviluppo di tutto questo dipenderà dalla proposta e iniziativa degli stessi partecipanti all’evento.<br>L’organizzazione dell’evento sarà coordinata da un’equipe promotrice che è in corso di formazione. Si cercano persone interessate a farne parte per svolgere le funzioni necessarie alla realizzazione dell’evento.<br>Ad ora l’equipe promotrice sta lavorando attraverso chat mensili programmate fino al mese di Luglio 2014, periodo entro il quale è possibile proporsi nell’equipe promotrice. Le proposte su attività da svolgere potranno svilupparsi fino a Novembre 2014.<br>"
+
+  footer:
+    contact_title: "Contatti"
+    contact_body: "Per ricevere maggiori informazioni, per proporsi nella realizzazione dell’evento o proporre attività e iniziative scrivere a:<br><a href='mailto:eastwestdialogues@gmail.com'>eastwestdialogues@gmail.com</a>"
+    social_title: "Social"
+    social_body: "Su facebook pubblicheremo tutti gli aggiornamenti sull'iniziativa"
 
   quotes:
-    proportion: "...Pensa alla sproporzione che abbiamo tra il totale della popolazione e il totale dei parchi…Pensa alla popolazione dell'Asia, tutta l'Asia e due parchi, è una sproporzione...” (Silo, 2010)"
-    clarification: "...L'umanista deve fare chiarimento interno per poter fare chiarimento esterno e non arrendersi proprio in questo momento in cui nessuno chiarisce nessuno...Questi sono processi e gli umanisti sono inseriti in un momento sociale e storico. Il sì e il no stanno anche negli umanisti. E’ una cosa che deve essere considerata, valorizzata. Come non dare valore al chiarimento?” (Silo, 2008)"
+    proportion: "...Pensa alla sproporzione che abbiamo tra il totale della popolazione e il totale dei parchi…Pensa alla popolazione dell'Asia, tutta l'Asia e due parchi, è una sproporzione...” (Silo,  17/8/2010)"
+    when: "East West Dialogues — Varkala, India — 16-22 Febbraio 2015"
+
+  subscribe:
+    page_title: "Partecipa a EastWest Dialogues"
+    page_incipit: "Iscriviti e ricevi informazioni utili"
+    intro_title: "Perchè iscriversi?"
+    intro_body: "Per ricevere informazioni utili sull'evento, sul posto, <sui mezzi di trasporto e sulle strutture ricettive della zone basta compilare il modulo sottostante.<br>Iscrivendoti aiuti anche gli i promotori ad organizzare al meglio il raduno"
+    title: "Registrati all'evento"
+    required: "Campi obbligatori"
+    email: "Indirizzo Email"
+    name: "Nome"
+    surname: "Cognome"
+    country: "Paese"
+    age: "Età"
+    arrival: "Data di arrivo"
+    departure: "Data di partenza"
+    register: "Registrati"
+
+  info:
+    page_title: "EastWest Dialogues"
+    page_incipit: "Informazioni utili"
+    location_title: "Come arrivare"
+    location_body: "L'aeroporto internazionale di Trivandrum è raggiungibile dalle principali capitali europee con voli settimanali di varie compagnie aeree. (Kuwait Airways, Emirates, Quatar,...)<br>Verranno organizzati taxi e bus navetta per il trasferimento dall'aeroporto di Trivandrum a Varkala Beach, luogo del raduno."
+    what_title: "Cosa fare"
+    what_body: "Varkala Beach, località marina tra le più belle del Kerala, è sede di numerose strutture ricettive di tutte le fasce qualitative e di prezzo, ristoranti tipici indiani e internazionali, cliniche Ayurvediche (l'Ayurveda ha avuto origine proprio in Kerala), agenzie turistiche che organizzano escursioni e spostamenti in tutti i luoghi di maggiore interesse della zona.<br>A soli 3 km da Varkala Beach si trova il paese di Varkala, collegato alla capitale Trivandrum con treni quotidiani molto frequenti (il tragitto dura circa 45 minuti). Qui si trovano botteghe, mercati e negozi locali oltre che l'ospedale, banche e altri servizi<br>Da Trivandrum sono raggiungibili tutte le principali località dell'India del Sud tra cui Madurai, Chennai, Kanyakumari, Bombay i templi scavati nella roccia di Ellora e Ajanta."
+
+  links:
+    title: "Link utili"
+    webpages:
+      -
+        url: http://www.google.com
+        txt: Il motore di ricerca
+      -
+        url: http://www.repubblica.it
+        txt: Un giornale filogovernativo
+      -
+        url: http://www.sanyoujizzo.com
+        txt: Meditadione trascendetale
+
+  menu:
+    what: "Cosa è"
+    participate: "Partecipa"
+    info: "Informazioni"
+    program: "Il programma"
