@@ -45,7 +45,18 @@ title: Informazioni - East West Dialogue
     img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/08.jpg"
 
 .l-wrap
-  p.hint: small Hint: Use Arrow Keys (or Swipe) to Navigate
+  p.hint: small Hint: Use < Arrow Keys > (or Swipe) to navigate photos
+
+
+.l-wrap
+  .widget
+    .widget__title = t("likns.title")
+    .links
+      - t('links.webpages').each do |k|
+        .links__item
+          a.links__title href=k["url"] = k['url']
+          p.links__description = k['txt']
+
 
 
 javascript:
