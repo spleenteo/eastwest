@@ -35,14 +35,8 @@ title: Informazioni - East West Dialogue
 
 #content
   #gallery
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/01.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/02.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/03.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/04.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/05.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/06.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/07.jpg"
-    img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/08.jpg"
+    - (1..15).each do |i|
+      img data-src="https://dl.dropboxusercontent.com/u/3645868/gallery-website/#{i}.jpg"
 
 .l-wrap
   p.hint: small Hint: Use < Arrow Keys > (or Swipe) to navigate photos
@@ -50,7 +44,7 @@ title: Informazioni - East West Dialogue
 
 .l-wrap
   .widget
-    .widget__title = t("likns.title")
+    .widget__title = t("links.title")
     .links
       - t('links.webpages').each do |k|
         .links__item
