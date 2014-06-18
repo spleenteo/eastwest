@@ -61,17 +61,17 @@ it:
     title: "Link utili"
     webpages:
       -
-        url: http://www.google.com
-        txt: Il motore di ricerca
+        url: http://www.keralatourism.org/kerala-at-a-glance/
+        txt: Informazioni sul Kerala
       -
-        url: http://www.repubblica.it
-        txt: Un giornale filogovernativo
+        url: http://http://www.varkala.info/
+        txt: Informazioni su Varkala e Varkala Beach
       -
-        url: http://www.sanyoujizzo.com
-        txt: Meditadione trascendetale
+        url: http://www.keralatourism.com/
+        txt: Informazioni sul Kerala
 
   menu:
-    what: "Cosa è"
+    what: "Descrizione"
     participate: "Partecipa"
-    info: "Informazioni"
+    info: "Informazioni sul luogo"
     program: "Il programma"
