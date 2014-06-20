@@ -31,50 +31,50 @@ link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesh
         span.asterisk *
       input type="text" value="" name="COUNTRY" class="required" id="mce-COUNTRY"
 
-  .grid
-    .grid__item.non-portable--6-12
-      label for="mce-AGE"
-        = t("subscribe.age")
-        span.asterisk *
-      input type="number" name="AGE" class="required" value="" id="mce-AGE"
+    .grid
+      .grid__item.non-portable--6-12
+        label for="mce-AGE"
+          = t("subscribe.age")
+          span.asterisk *
+        input type="number" name="AGE" class="required" value="" id="mce-AGE"
 
-    .grid__item.non-portable--6-12
-      label for="mce-ARRIVAL-month"
-        = t("subscribe.arrival")
-      div class="datefield"
-        span class="subfield monthfield"
-          input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="ARRIVAL[month]" id="mce-ARRIVAL-month"
-        ' /
-        span class="subfield dayfield"
-          input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="ARRIVAL[day]" id="mce-ARRIVAL-day"
-        ' /
-        span class="subfield yearfield"
-          input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="ARRIVAL[year]" id="mce-ARRIVAL-year"
-            span class="small-meta nowrap" ( mm / dd / yyyy )
-        div class="fake-date"
-          input type="hidden" class=" date" id="ARRIVAL-fake-date" value=""
-
-      .mc-field-group.size1of2
-        label for="mce-DEPARTURE-month"
-          = t("subscribe.departure")
+      .grid__item.non-portable--6-12
+        label for="mce-ARRIVAL-month"
+          = t("subscribe.arrival")
         div class="datefield"
           span class="subfield monthfield"
-            input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="DEPARTURE[month]" id="mce-DEPARTURE-month"
-          '/
+            input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="ARRIVAL[month]" id="mce-ARRIVAL-month"
+          ' /
           span class="subfield dayfield"
-            input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="DEPARTURE[day]" id="mce-DEPARTURE-day"
-          '/
+            input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="ARRIVAL[day]" id="mce-ARRIVAL-day"
+          ' /
           span class="subfield yearfield"
-            input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="DEPARTURE[year]" id="mce-DEPARTURE-year"
-          span class="small-meta nowrap" ( mm / dd / yyyy )
+            input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="ARRIVAL[year]" id="mce-ARRIVAL-year"
+              span class="small-meta nowrap" ( mm / dd / yyyy )
           div class="fake-date"
-            input type="hidden" class=" date" id="DEPARTURE-fake-date" value=""
+            input type="hidden" class=" date" id="ARRIVAL-fake-date" value=""
 
-    div id="mce-responses" class="clear"
-      div class="response" id="mce-error-response" style="display:none"
-      div class="response" id="mce-success-response" style="display:none"
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    div style="position: absolute; left: -5000px;"
-      input type="text" name="b_88d6834f241136d3c6781b2f4_55ef270341" tabindex="-1" value=""
-    div class="clear"
-      input type="submit" value="#{ t("subscribe.register")}" name="subscribe" id="mc-embedded-subscribe" class="button"
+        .mc-field-group.size1of2
+          label for="mce-DEPARTURE-month"
+            = t("subscribe.departure")
+          div class="datefield"
+            span class="subfield monthfield"
+              input type="text" pattern="[0-9]*" value="MM" size="2" maxlength="2" name="DEPARTURE[month]" id="mce-DEPARTURE-month"
+            '/
+            span class="subfield dayfield"
+              input type="text" pattern="[0-9]*" value="DD" size="2" maxlength="2" name="DEPARTURE[day]" id="mce-DEPARTURE-day"
+            '/
+            span class="subfield yearfield"
+              input type="text" pattern="[0-9]*" value="YYYY" size="4" maxlength="4" name="DEPARTURE[year]" id="mce-DEPARTURE-year"
+            span class="small-meta nowrap" ( mm / dd / yyyy )
+            div class="fake-date"
+              input type="hidden" class=" date" id="DEPARTURE-fake-date" value=""
+
+      div id="mce-responses" class="clear"
+        div class="response" id="mce-error-response" style="display:none"
+        div class="response" id="mce-success-response" style="display:none"
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      div style="position: absolute; left: -5000px;"
+        input type="text" name="b_88d6834f241136d3c6781b2f4_55ef270341" tabindex="-1" value=""
+      div class="clear"
+        input type="submit" value="#{ t("subscribe.register")}" name="subscribe" id="mc-embedded-subscribe" class="button"
