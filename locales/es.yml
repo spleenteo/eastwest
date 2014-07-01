@@ -1,4 +1,77 @@
 ---
 es:
-  hello: "Hola in espanol"
-  title: '“Dialoghi Oriente-Occidente” sobre Silo'
+  paths:
+    participate: "participa"
+    info: "informacion"
+
+  project_name: "East West Dialogues"
+  title: 'Diálogos entre Oriente y Occidente<br>Siloismo, Humanismo Universalista y Nueva Espiritualidad en el contexto social mundial.'
+  initiative_title: "Iniciativa"
+  initiative_body: "A raíz de algunos intercambios realizados en la India entre Siloistas de diversos paises surgió la imagen de convocar a una reunión a realizarse en India con personas tanto de oriente como de occidente ,que adhieren al Humanismo Universalista expresado a través de la doctrina de Silo."
+  why_title: "Motivaciones"
+  why_body: "Esta iniciativa tiene como base la necesidad de seguir desarrollando un amplio intercambio sobre los temas que nos unen, nuestra dirección a futuro y la utilidad de fomentar el desarrollo de actividades e iniciativas en el continente asiático."
+  who_title: "Promotores"
+  who_body: "La iniciativa está promovida y desarrollada por algunos Siloistas, miembros de El Mensaje de Silo y del Movimiento Humanista en Asia y Europa."
+  when_title: "Cuándo"
+  when_body: "La reunión está programada para la semana del 16 hasta el 22 febrero de 2015 con una actividad posterior de gran concentración los días 20, 21 y 22 de febrero del mismo año."
+  where_title: "Lugar"
+  where_body: "La reunión tendrá lugar en Varkala, localidad costera con vista al mar Arábigo, situado en el suroeste de la India en el estado de Kerala, a unos 50 km de la capital de Trivandrum (aeropuerto internacional)."
+  purpose_title: "Aspiración"
+  purpose_body: "Esperamos que esta reunión nos permita tener mayor claridad acerca de nuestro trabajo inmediato y a futuro, y que sea el comienzo de un diálogo abierto hacia nuevos desarrollos; que promueva y fomente el intercambio de experiencias y el contacto entre realidades que traducen la doctrina siloista en contextos sociales y culturales muy diversos, rescatando los aspetos comunes. Además, se espera que surjan imágenes de acciones de emprender sea tanto en Europa como en Asia."
+  how_title: "Desarrollo"
+  how_body: "En las reuniones a celebrarse entre el 16 y el 19 de febrero se pretende profundizar en iniciativas, intercambio y trabajo conjunto que, además de ser válidos por sí mismos, sirvan de base para aclarar los temas comunes que se quieran tratar en la segunda etapa, de máxima concentración, a realizarse los días 20, 21 y 22 de febrero. En este segundo momento de actividades habrá conferencias, intercambios, seminarios y trabajo en equipo sobre cuestiones relativas a la situación actual del Siloismo y sobre el momento histórico mundial en el que está inserto, así como su transcurrir y sus posibilidades a futuro. "
+  organization_title: "Organización"
+  organization_body: "El desarrollo de esta propuesta dependerá de la iniciativa de los participantes en el evento. La organización estará coordinada por un equipo en formación, por lo que estamos buscando a personas interesadas en unirse a él para asumir las funciones necesarias para la realización del evento. Por ahora, el equipo está trabajando a través de chats mensuales programados hasta el mes de julio de 2014, periodo dentro del cual es posible autopostularse para participar en este equipo promotor. Las propuestas sobre actividades podrán desarrollarse hasta noviembre de 2014.<br>"
+
+  footer:
+    contact_title: "Contactos"
+    contact_body: "Para recibir más información, proponerse para la realización del evento o proponer actividades e iniciativas, pueden escribir a:<br><a href='mailto:eastwestdialogues@gmail.com'>eastwestdialogues@gmail.com</a>"
+    social_title: "Social"
+    social_body: "En facebook publicaremos todas las actualizaciones sobre la iniciativa."
+
+  quotes:
+    proportion: "”....Piensa en la desproporción que tenemos entre el total de la población y el total de los parques ... Piensa en la población de Asia, toda Asia y dos parques, es una desproporción...” Silo, 17/8/2010)"
+    when: "East West Dialogues — Varkala, India — 16-22 febrero 2015"
+
+  subscribe:
+    page_title: "Partocipa a EastWest Dialogues"
+    page_incipit: "Regístrate y recibe información"
+    intro_title: "¿Por qué inscribirse?"
+    intro_body: "Para recibir información sobre el evento, sobre el lugar, sobre los medio de transporte y las instalaciones de alojamiento. Sólo tienen que rellenar el siguiente formulario. Al suscribirse también ayudan a los promotores para organizar mejor el encuentro."
+    title: "Regístrate"
+    required: "Campos Obligatorios"
+    email: "Correo Email"
+    name: "Nombre"
+    surname: "Apellido"
+    country: "Paìs"
+    age: "Edad"
+    arrival: "Fecha de llegada"
+    departure: "Fecha de salida"
+    register: "Regístrate"
+
+  info:
+    page_title: "EastWest Dialogues"
+    page_incipit: "Informaciòn"
+    location_title: "Cómo llegar"
+    location_body: "El aeropuerto internacional de Trivandrum es accesible desde las principales capitales europeas con vuelos semanales desde diversas compañías aéreas. (Kuwait Airways, Emirates, Qatar, ...). Se organizarán taxis y servicio de traslado en autobús desde Trivandrum a Varkala Beach, lugar de la reunión."
+    what_title: "Qué hacer"
+    what_body: "Varkala Beach, la más bella localidad costera de Kerala, cuenta con numerosos hoteles de todas las gamas de calidad y precio, restaurantes típicos, clínicas ayurvédicas (el Ayurveda tuvo su origen en Kerala), agencias de turismo que organizan excursiones y viajes a todos los lugares de interés de la zona. A sólo 3 km de Varkala Beach está la ciudad de Varkala, conectada a la capital Trivandrum con trenes muy frecuentes todos los días (el viaje dura unos 45 minutos). Aquí encontrará tiendas y mercados, así como hospital, bancos y otros servicios. Trivandrum es un punto muy adecuado para acceder a todas las ciudades principales, templos y bellezas del sur de India, incluyendo Madurai, Chennai, Kanyakumari. En Mumbai, también accesible desde Travandrum, se localizan los famosos templos excavadas en la roca de Ellora y Ajanta."
+
+  links:
+    title: "Links"
+    webpages:
+      -
+        url: http://www.keralatourism.org/kerala-at-a-glance/
+        txt: información Kerala
+      -
+        url: http://www.varkala.info/
+        txt: información Varkala y Varkala Beach
+      -
+        url: http://www.keralatourism.com/
+        txt: información Kerala
+
+  menu:
+    what: "Descripción"
+    participate: "Participa"
+    info: "información sobre el lugar"
+    program: "El programa"
