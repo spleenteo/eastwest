@@ -30,14 +30,14 @@ it:
     social_body: "Su facebook pubblicheremo tutti gli aggiornamenti sull'iniziativa"
 
   quotes:
-    proportion: "...Pensa alla sproporzione che abbiamo tra il totale della popolazione e il totale dei parchi…Pensa alla popolazione dell'Asia, tutta l'Asia e due parchi, è una sproporzione...” (Silo,  17/8/2010)"
+    proportion: "”...Pensa alla sproporzione che abbiamo tra il totale della popolazione e il totale dei parchi... Pensa alla popolazione dell'Asia, tutta l'Asia e due parchi, è una sproporzione...” (Silo,  17/8/2010)"
     when: "East West Dialogues — Varkala, India — 16-22 Febbraio 2015"
 
   subscribe:
     page_title: "Partecipa a EastWest Dialogues"
     page_incipit: "Iscriviti e ricevi informazioni utili"
     intro_title: "Perchè iscriversi?"
-    intro_body: "Per ricevere informazioni utili sull'evento, sul posto, <sui mezzi di trasporto e sulle strutture ricettive della zone basta compilare il modulo sottostante.<br>Iscrivendoti aiuti anche gli i promotori ad organizzare al meglio il raduno"
+    intro_body: "Per ricevere informazioni utili sull'evento, sul posto, sui mezzi di trasporto e sulle strutture ricettive della zone basta compilare il modulo sottostante.<br>Iscrivendoti aiuti anche gli i promotori ad organizzare al meglio il raduno"
     title: "Registrati all'evento"
     required: "Campi obbligatori"
     email: "Indirizzo Email"
@@ -55,7 +55,7 @@ it:
     location_title: "Come arrivare"
     location_body: "L'aeroporto internazionale di Trivandrum è raggiungibile dalle principali capitali europee con voli settimanali di varie compagnie aeree. (Kuwait Airways, Emirates, Quatar,...)<br>Verranno organizzati taxi e bus navetta per il trasferimento dall'aeroporto di Trivandrum a Varkala Beach, luogo del raduno."
     what_title: "Cosa fare"
-    what_body: "Varkala Beach, località marina tra le più belle del Kerala, è sede di numerose strutture ricettive di tutte le fasce qualitative e di prezzo, ristoranti tipici indiani e internazionali, cliniche Ayurvediche (l'Ayurveda ha avuto origine proprio in Kerala), agenzie turistiche che organizzano escursioni e spostamenti in tutti i luoghi di maggiore interesse della zona.<br>A soli 3 km da Varkala Beach si trova il paese di Varkala, collegato alla capitale Trivandrum con treni quotidiani molto frequenti (il tragitto dura circa 45 minuti). Qui si trovano botteghe, mercati e negozi locali oltre che l'ospedale, banche e altri servizi<br>Da Trivandrum sono raggiungibili tutte le principali località dell'India del Sud tra cui Madurai, Chennai, Kanyakumari, Bombay i templi scavati nella roccia di Ellora e Ajanta."
+    what_body: "Varkala Beach, località marina tra le più belle del Kerala, è sede di numerose strutture ricettive di tutte le fasce qualitative e di prezzo, ristoranti tipici indiani e internazionali, cliniche Ayurvediche (l'Ayurveda ha avuto origine proprio in Kerala), agenzie turistiche che organizzano escursioni e spostamenti in tutti i luoghi di maggiore interesse della zona.<br>A soli 3 km da Varkala Beach si trova il paese di Varkala, collegato alla capitale Trivandrum con treni quotidiani molto frequenti (il tragitto dura circa 45 minuti). Qui si trovano botteghe, mercati e negozi locali oltre che l'ospedale, banche e altri servizi<br>Da Trivandrum sono raggiungibili tutte le principali località dell'India del Sud tra cui Madurai, Chennai, Kanyakumari, Bombay e i templi scavati nella roccia di Ellora e Ajanta."
 
   links:
     title: "Link utili"

@@ -2,3 +2,8 @@ ul.nav--center.main-menu
   li.nav__item = link_to t("menu.what"), "#{I18n.locale}"
   li.nav__item = link_to t("menu.participate"), "#{I18n.locale}/#{t('paths.participate')}"
   li.nav__item = link_to t("menu.info"), "#{I18n.locale}/#{t('paths.info')}"
+
+  ul.nav--right.lang-menu
+    li.nav__item = link_to "en", "/en/"
+    li.nav__item = link_to "es", "/es/"
+    li.nav__item = link_to "it", "/it/"
