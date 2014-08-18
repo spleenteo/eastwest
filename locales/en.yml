@@ -57,6 +57,9 @@ en:
     arrival: "Date of arrival"
     departure: "Date of departure"
     register: "Register"
+    partecipate: "Would you like to join the commission?"
+    organization: "Yes, I'd like to collaborate for the whole planning starting from now"
+    help_in_loco: "Yes, I'd like to help during the gathering"
 
   info:
     page_title: "EastWest Dialogues"

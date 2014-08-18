@@ -38,6 +38,19 @@ link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesh
           span.asterisk *
         input type="number" name="AGE" class="required" value="" id="mce-AGE"
 
+        .space--vertical-margin-2
+          .mc-field-group.input-group
+            strong = t("subscribe.partecipate")
+            ul
+              li
+                input type="checkbox" value="1" name="group[13093][1]" id="mce-group[13093]-13093-0"
+                label for="mce-group[13093]-13093-0" = t("subscribe.organization")
+              li
+                input type="checkbox" value="2" name="group[13093][2]" id="mce-group[13093]-13093-1"
+                label for="mce-group[13093]-13093-1" = t("subscribe.help_in_loco")
+
+
+
       .grid__item.non-portable--6-12
         label for="mce-ARRIVAL-month"
           = t("subscribe.arrival")
@@ -54,6 +67,7 @@ link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesh
           div class="fake-date"
             input type="hidden" class=" date" id="ARRIVAL-fake-date" value=""
 
+        .space--vertical-margin-2
         .mc-field-group.size1of2
           label for="mce-DEPARTURE-month"
             = t("subscribe.departure")
@@ -69,6 +83,7 @@ link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesh
             span class="small-meta nowrap" ( mm / dd / yyyy )
             div class="fake-date"
               input type="hidden" class=" date" id="DEPARTURE-fake-date" value=""
+
 
       div id="mce-responses" class="clear"
         div class="response" id="mce-error-response" style="display:none"

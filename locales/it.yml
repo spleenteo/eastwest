@@ -48,6 +48,9 @@ it:
     arrival: "Data di arrivo"
     departure: "Data di partenza"
     register: "Registrati"
+    partecipate: "Vuoi entrare a far parte della commissione?"
+    organization: "Sì, vorrei collaborare all'organizzazione a partire da ora"
+    help_in_loco: "Sì, vorrei aiutare durante i giorni dell'evento"
 
   info:
     page_title: "EastWest Dialogues"
