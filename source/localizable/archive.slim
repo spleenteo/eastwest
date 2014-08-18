@@ -1,0 +1,24 @@
+---
+title: Documents Archive - East West Dialogue
+---
+
+.hero--archive
+  .hero__sticky
+    = partial "../partials/menu"
+
+  .hero__body
+    .hero__body__inner
+      h1.hero__heading = t("archive.page_title")
+      / p.hero__text = t("archive.page_incipit")
+
+
+.l-wrap
+  .grid.space--vertical-padding-5
+    .grid__item.non-portable--6-12
+      .widget
+        i.widget__icon.icon--news
+        h2.widget__title = t("archive.download_title")
+        p.widget__body = t("archive.download_body")
+
+      .widget
+        a.button--huge.button--primary href="https://www.dropbox.com/sh/cjrkiwer0u78t55/AABa4xUoKOi6A-HpJpJ4bcT1a" target="_blank" = t("archive.download_button")

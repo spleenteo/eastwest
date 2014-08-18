@@ -53,13 +53,18 @@
   min-height: 50vh
   background-image: url("../images/hero/temple.jpg")
 
+.hero--archive
+  @extend .hero
+  min-height: 50vh
+  background-image: url("../images/hero/archive.jpg")
+
 .hero--info
   @extend .hero
   min-height: 75vh
   color: $c-white
   background-image: url("../images/hero/kerala.jpg")
 
-.hero--subscribe, .hero--primary
+.hero--subscribe, .hero--primary, .hero--archive
   color: white
 
   .hero__text a
