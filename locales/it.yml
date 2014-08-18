@@ -5,10 +5,8 @@ it:
     info: "informazioni"
     archive: "documenti"
 
-
   archive:
     page_title: "Archivio documenti"
-    page_incipit: "Scarica i materiali ufficiali dell'evento"
     download_title: "Download"
     download_body: "Nella sezione archivio è possibile trovare tutti i materiali ufficiali dell'evento. Nel press-kit si trovano il logo utitlizzabile e un articolo che bla bla bla"
     download_button: "Vai all'archivio"
@@ -87,3 +85,4 @@ it:
     participate: "Partecipa"
     info: "Informazioni sul luogo"
     program: "Il programma"
+    archive: "Documenti"
