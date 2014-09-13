@@ -40,7 +40,7 @@ es:
     when: "East West Dialogues — Varkala, India — 16-22 febrero 2015"
 
   subscribe:
-    page_title: "Partocipa a EastWest Dialogues"
+    page_title: "Participa a EastWest Dialogues"
     page_incipit: "Regístrate y recibe información"
     intro_title: "¿Por qué inscribirse?"
     intro_body: "Para recibir información sobre el evento, sobre el lugar, sobre los medio de transporte y las instalaciones de alojamiento. Sólo tienen que rellenar el siguiente formulario. Al suscribirse también ayudan a los promotores para organizar mejor el encuentro."
@@ -55,7 +55,7 @@ es:
     departure: "Fecha de salida"
     register: "Regístrate"
     partecipate: "Quieres participar en la comision?"
-    organization: "Si, me gustaria colaboraren en la organizacion desde ahora"
+    organization: "Si, me gustaria colaborar en la organizacion desde ahora"
     help_in_loco: "Si, me gustaria ayudar durante los dias del raduno"
 
   info:
