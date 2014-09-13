@@ -3,6 +3,7 @@ es:
   paths:
     participate: "participa"
     info: "informaciòn"
+    archive: "documentos"
 
   archive:
     page_title: "Archivio documenti"
