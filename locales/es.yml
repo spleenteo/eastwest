@@ -6,10 +6,10 @@ es:
     archive: "documentos"
 
   archive:
-    page_title: "Archivio documenti"
+    page_title: "Archivo documentos"
     download_title: "Download"
-    download_body: "Nella sezione archivio è possibile trovare tutti i materiali ufficiali dell'evento. Nel press-kit si trovano il logo utitlizzabile e un articolo che bla bla bla"
-    download_button: "Vai all'archivio"
+    download_body: "En el archivo se pueden descargar el programa actualizado del evento y todos lo materiales oficiales"
+    download_button: "Visita el archivo"
 
   project_name: "East West Dialogues"
   title: 'Diálogos entre Oriente y Occidente<br>Siloismo, Humanismo Universalista y Nueva Espiritualidad en el contexto social mundial.'
