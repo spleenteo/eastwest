@@ -10,6 +10,8 @@ it:
     download_title: "Download"
     download_body: "Nella sezione archivio è possibile trovare il programma dell'evento aggiornato e tutti i materiali ufficiali."
     download_button: "Vai all'archivio"
+    gallery_title: "Foto dell'evento"
+    gallery_button: "Vai alla galleria"
 
   project_name: "East West Dialogues"
   title: 'Dialoghi Oriente-Occidente:<br>Siloismo, Umanesimo Universalista e Nuova Spiritualità nel contesto sociale mondiale.'
